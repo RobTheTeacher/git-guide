@@ -4,7 +4,7 @@ This task is to develop your git skills and project organisation. You will run i
 
 --------------------------------------
 
-Your job is to complete the add.html page. This page will explain how to create a git project and link it to a github repository.
+Your job is to complete the add.html page. This page will explain how to add changes to a git repository.
 
 The page itself has been created in the /html directory, but it is empty! You'll have to create any additional directories and files you need - css, images, etc.
 
