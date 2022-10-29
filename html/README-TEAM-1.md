@@ -66,7 +66,7 @@ Add an area explaining how to create a main branch and how to push your changes 
 
 --------------------------------------
 
-This guide will be for your use - please add content in your own words, but cut and paste if you have to. Github docs should have good explainations for the commands, sites like https://git-scm.com/ will have very detailed explanations. Use any resource you want.
+This guide will be for your use - please add content in your own words, but cut and paste if you have to. Github docs should have good explanations for the commands, sites like https://git-scm.com/ will have very detailed explanations. Use any resource you want.
 
 You should only need a paragraph or two for most tasks. A user should be able to use this a quick reference, not a detailed description of how git works. Think about what YOU need to know at this level - thats what I want to see. 
 
