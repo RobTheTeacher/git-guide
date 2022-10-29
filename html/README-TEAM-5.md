@@ -1,10 +1,10 @@
-Hello TEAM-4!!!
+Hello TEAM-5!!!
 
 This task is to develop your git skills and project organisation. You will run into conflicts when merging your branches and you will need to work together to solve them.
 
 --------------------------------------
 
-Your job is to complete the review.html page. This page will explain how to review changes to a git project before pushing.
+Your job is to complete the merge.html page. This page will explain how to merge branches.
 
 The page itself has been created in the /html directory, but it is empty! You'll have to create any additional directories and files you need - css, images, etc.
 
@@ -13,13 +13,13 @@ The page layout, design, colours and style are entirely up to you. The tasks tel
 
 --------------------------------------
 
-You MUST only work inside the team-4 branch. 
+You MUST only work inside the team-5 branch. 
 
 Each team member MUST complete at least one of the following tasks.
 
-Each task MUST be completed in a separate branch that is created from the team-4 branch.
+Each task MUST be completed in a separate branch that is created from the team-5 branch.
 
-Name your branches team-4-task-1 or something similar.
+Name your branches team-5-task-1 or something similar.
 
 Complete your work, then merge your task branch into the team branch. 
 
@@ -50,26 +50,25 @@ The navigation bar must have the following items:
 
 Task 2)
 
-Add a area on the page detailing the 'git status' command. Explain how to use it and what it shows
+Add a area on the page detailing the merge flow. Explain the necessary steps.
 
 Task 3)
 
-Add an area to the page detailing the 'git diff' command. Explain how to show individual files or alll files
+Add an area to the page detailing the 'git merge' command.
 
 Task 4)
 
-Add an area on the page detailing the 'git pull' command. Explain why it is so important
+Add an area on the page detailing what merge conflicts are and how to resolve them.
 
 Task 5)
-q
-Add an area explaining the 'git log' command
+
+Add an area explaining how to add, commit and push a merged branch to the repository.
 
 --------------------------------------
 
 This guide will be for your use - please add content in your own words, but cut and paste if you have to. Github docs should have good explanations for the commands, sites like https://git-scm.com/ will have very detailed explanations. Use any resource you want.
 
 You should only need a paragraph or two for most tasks. A user should be able to use this a quick reference, not a detailed description of how git works. Think about what YOU need to know at this level - thats what I want to see. 
-
 
 
 
