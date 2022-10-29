@@ -64,6 +64,10 @@ Task 5)
 
 Add an area explaining how to create a main branch and how to push your changes to the repo.
 
+Task 6)
+
+Add an area explaining how to clone an existing repository from github
+
 --------------------------------------
 
 This guide will be for your use - please add content in your own words, but cut and paste if you have to. Github docs should have good explanations for the commands, sites like https://git-scm.com/ will have very detailed explanations. Use any resource you want.
