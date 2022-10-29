@@ -66,7 +66,7 @@ Show how to change to a branch you do not have in your local repository (hint: a
 
 Task 5)
 
-Add a footer to your page.
+Add an area to your page showing how to push a new branch
 
 --------------------------------------
 
