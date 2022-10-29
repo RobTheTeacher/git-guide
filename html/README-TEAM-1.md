@@ -58,7 +58,7 @@ Add an area to the page explaining how to create a github repository. Screenshot
 
 Task 4)
 
-Add an area on the page showing how to use the git remotte add origin command. Screenshots are probably a good idea.
+Add an area on the page showing how to use the git remote add origin command. Screenshots are probably a good idea.
 
 Task 5)
 
