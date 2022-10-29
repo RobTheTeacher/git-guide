@@ -1,0 +1,29 @@
+html {
+  height: 100vh;
+}
+
+body {
+  background-color: #231f20;
+  height: 100%;
+  font-family: adelle;
+  margin: 0;
+}
+
+header {
+  color: #ffffff;
+  font-size: 64px;
+  font-weight: 700;
+  height: 30%;
+  padding: 64px;
+  text-align: center;
+}
+
+.git-logo {
+  background-color: #231f20;
+  background-image: url('../images/git-logo.png') ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 50%;
+  width: auto;
+}
