@@ -8,7 +8,6 @@ Your job is to complete the stash.html page. This page will explain how to stash
 
 The page itself has been created in the /html directory, but it is empty! You'll have to create any additional directories and files you need - css, images, etc.
 
-
 The page layout, design, colours and style are entirely up to you. The tasks tell you what you have to complete, how you do it is your choice.
 
 --------------------------------------
@@ -38,7 +37,7 @@ The navigation bar must have the following items:
 
     "Create" - link to './create.html':
 
-    "Branching" - link yo './branch.html';
+    "Branching" - link to './branch.html';
 
     "Add Changes" - link to './add.html';
 
@@ -68,4 +67,4 @@ Add an area to the page detailing the 'git stash pop' command.
 
 This guide will be for your use - please add content in your own words, but cut and paste if you have to. Github docs should have good explanations for the commands, sites like https://git-scm.com/ will have very detailed explanations. Use any resource you want.
 
-You should only need a paragraph or two for most tasks. A user should be able to use this a quick reference, not a detailed description of how git works. Think about what YOU need to know at this level - thats what I want to see. 
+You should only need a paragraph or two for most tasks. A user should be able to use this a quick reference, not a detailed description of how git works. Think about what YOU need to know at this level - that's what I want to see. 
