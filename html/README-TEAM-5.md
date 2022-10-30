@@ -32,13 +32,14 @@ Your tasks are:
 Task 1) 
 
 Add a header with page title and a navigation bar.
+
 The navigation bar MUST link to the following pages - you MUST NOT create the pages, just add links. They will not lead anywhere until every team has completed their tasks.
 
 The navigation bar must have the following items:
 
     "Create" - link to './create.html':
 
-    "Branching" - link yo './branch.html';
+    "Branching" - link to './branch.html';
 
     "Add Changes" - link to './add.html';
 
@@ -62,13 +63,17 @@ Add an area on the page detailing what merge conflicts are and how to resolve th
 
 Task 5)
 
+Add an area on the page detailing the 'git merge --abort' command
+
+Task 6)
+
 Add an area explaining how to add, commit and push a merged branch to the repository.
 
 --------------------------------------
 
 This guide will be for your use - please add content in your own words, but cut and paste if you have to. Github docs should have good explanations for the commands, sites like https://git-scm.com/ will have very detailed explanations. Use any resource you want.
 
-You should only need a paragraph or two for most tasks. A user should be able to use this a quick reference, not a detailed description of how git works. Think about what YOU need to know at this level - thats what I want to see. 
+You should only need a paragraph or two for most tasks. A user should be able to use this a quick reference, not a detailed description of how git works. Think about what YOU need to know at this level - that's what I want to see. 
 
 
 
