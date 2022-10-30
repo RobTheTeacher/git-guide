@@ -8,7 +8,6 @@ Your job is to complete the review.html page. This page will explain how to revi
 
 The page itself has been created in the /html directory, but it is empty! You'll have to create any additional directories and files you need - css, images, etc.
 
-
 The page layout, design, colours and style are entirely up to you. The tasks tell you what you have to complete, how you do it is your choice.
 
 --------------------------------------
@@ -32,13 +31,14 @@ Your tasks are:
 Task 1) 
 
 Add a header with page title and a navigation bar.
+
 The navigation bar MUST link to the following pages - you MUST NOT create the pages, just add links. They will not lead anywhere until every team has completed their tasks.
 
 The navigation bar must have the following items:
 
     "Create" - link to './create.html':
 
-    "Branching" - link yo './branch.html';
+    "Branching" - link to './branch.html';
 
     "Add Changes" - link to './add.html';
 
@@ -61,14 +61,14 @@ Task 4)
 Add an area on the page detailing the 'git pull' command. Explain why it is so important
 
 Task 5)
-q
+
 Add an area explaining the 'git log' command
 
 --------------------------------------
 
 This guide will be for your use - please add content in your own words, but cut and paste if you have to. Github docs should have good explanations for the commands, sites like https://git-scm.com/ will have very detailed explanations. Use any resource you want.
 
-You should only need a paragraph or two for most tasks. A user should be able to use this a quick reference, not a detailed description of how git works. Think about what YOU need to know at this level - thats what I want to see. 
+You should only need a paragraph or two for most tasks. A user should be able to use this a quick reference, not a detailed description of how git works. Think about what YOU need to know at this level - that's what I want to see. 
 
 
 
