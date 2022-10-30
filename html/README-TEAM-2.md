@@ -32,6 +32,7 @@ Your tasks are:
 Task 1) 
 
 Add a header with page title and a navigation bar.
+
 The navigation bar MUST link to the following pages - you MUST NOT create the pages, just add links. They will not lead anywhere until every team has completed their tasks.
 
 The navigation bar must have the following items:
@@ -72,7 +73,7 @@ Add an area to your page showing how to push a new branch
 
 This guide will be for your use - please add content in your own words, but cut and paste if you have to. Github docs should have good explanations for the commands, sites like https://git-scm.com/ will have very detailed explanations. Use any resource you want.
 
-You should only need a paragraph or two for most tasks. A user should be able to use this a quick reference, not a detailed description of how git works. Think about what YOU need to know at this level - thats what I want to see. 
+You should only need a paragraph or two for most tasks. A user should be able to use this a quick reference, not a detailed description of how git works. Think about what YOU need to know at this level - that's what I want to see. 
 
 
 
