@@ -64,6 +64,11 @@ Task 5)
 
 Add an area explaining what happens when you push changes in a new branch, and what a user should do.
 
+Task )
+
+Add an area explaining the 'git reset --hard HEAD' command an the dangers of using it
+
+
 --------------------------------------
 
 This guide will be for your use - please add content in your own words, but cut and paste if you have to. Github docs should have good explanations for the commands, sites like https://git-scm.com/ will have very detailed explanations. Use any resource you want.
