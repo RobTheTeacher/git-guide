@@ -23,17 +23,24 @@ ul {
     margin-right: auto;
 }
 
+code {
+    background-color: rgb(68, 67, 67);
+    max-width: fit-content;
+    padding: 2px;
+}
+
 .nav-container {
     display: flex;
     font-size: 16px;
     text-decoration: none;
+    text-align: start;
  
 }
 
 .main {
     display: flex;
     flex-direction: column;
-    margin: 48px auto;
+    margin: 48px auto 56px auto;
     max-width: 60ch;
 }
 
