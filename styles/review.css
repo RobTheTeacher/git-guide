@@ -1,6 +1,38 @@
+body {
+    color: #fff;
+}
+
+h1 {
+    margin: 0;
+}
+
 .nav-container {
     display: flex;
     font-size: 16px;
     text-decoration: none;
  
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    margin: 48px;
+    max-width: 60ch;
+}
+
+.main-item {
+    display: flex;
+    flex-direction: column;
+}
+
+a,
+a:hover,
+a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: lightblue;
+    transition: 0.5s;
 }
