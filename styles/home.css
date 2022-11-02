@@ -27,3 +27,12 @@ header {
   height: 50%;
   width: auto;
 }
+
+.merge-links a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.merge-links a:hover {
+  text-decoration: underline;
+}
