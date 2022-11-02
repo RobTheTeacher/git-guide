@@ -1,58 +1,104 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Git Guide - Merge Page</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../styles/home.css">
-    </head>
 
-    <body>
-        <header>      
-            <h1>Merge</h1>
-            <nav class="merge-links">
-              <a href='./create.html'>Create</a>
-              <a href='./branch.html'>Branching</a>
-              <a href='./add.html'>Add Changes</a>
-              <a href='./review.html'>Review Changes</a>
-              <a href='./merge.html'>Merge</a>
-              <a href='./stash.html'>Stash</a>
-            </nav>
-        </header>
-        <div class="merge-flow">
-            <h3>Explaning the merge flow</h3>
-            <p>
-                The merge flow is a complicated process, maybe not as complicated as we think. 
-                You have a main branch for the work and create new branches from that. When you have finished your 
-                work and want to merge your work to the main branch you initiate the merge command which has several steps. 
-                This guide explanes how you merge a second branch to the main one. 
-            </p>
-            <ol type="1">
-                <li>Checkout the main branch and pull (beacuse you should ALWAYS pull)</li>
-                <li>If you experience conlflicts, checkout the note in the end of the text otherwise go to the next step</li>
-                <li>Write the merge command followed by the branch you want to merge from</li>
-                <li>You finalize the merge by adding, commiting and pushing the changes</li>
-                <li>Now you have officially merged to branches!!</li>
-            </ol>
-            <p>
-                NOTE!<br>If you experience conflicts during your merge into the main branch, you should ALWAYS abort. This is because 
-                you should NEVER handle conflicts in the main branch. To merge when encountering conflicts you use the same commands but 
-                you checkout the branch where you did the changes, that is to say you go to the second branch and merge the main into the second branch then
-                handle the conflicts. After the conlflicts are handeled, you checkout the main branch and initiate the merge process once again to merge the second branch 
-                into the main one. This is to say you have to do an extra step to merge when encutering conflicts.
-            </p>
-        </div>
+<head>
+    <title>Git Guide - Merge Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/home.css">
+    <link rel="stylesheet" href="../styles/merge.css">
+</head>
 
-        <section class="merge-git-comand">
-            
-            <h3 class="merge-git-comand title">GIT MERGE COMAND</h3>
+<body>
+    <header>
+        <h1>Merge Page</h1>
+        <nav class="merge-links">
+            <a href='./create.html'>Create</a>
+            <a href='./branch.html'>Branching</a>
+            <a href='./add.html'>Add Changes</a>
+            <a href='./review.html'>Review Changes</a>
+            <a href='./merge.html'>Merge</a>
+            <a href='./stash.html'>Stash</a>
+        </nav>
+    </header>
+    <div class="title explane-merge">
+        <h3>Explaning the merge flow</h3>
+        <p>
+            The merge flow is a complicated process, maybe not as complicated as we think.
+            You have a main branch for the work and create new branches from that. When you have finished your
+            work and want to merge your work to the main branch you initiate the merge command which has several steps.
+            This guide explanes how you merge a second branch to the main one.
+        </p>
+        <ol type="1">
+            <li>Checkout the main branch and pull (beacuse you should ALWAYS pull)</li>
+            <li>If you experience conlflicts, checkout the note in the end of the text otherwise go to the next step
+            </li>
+            <li>Write the merge command followed by the branch you want to merge from</li>
+            <li>You finalize the merge by adding, commiting and pushing the changes</li>
+            <li>Now you have officially merged to branches!!</li>
+        </ol>
+        <p>
+            NOTE!<br>If you experience conflicts during your merge into the main branch, you should ALWAYS abort. This
+            is because
+            you should NEVER handle conflicts in the main branch. To merge when encountering conflicts you use the same
+            commands but
+            you checkout the branch where you did the changes, that is to say you go to the second branch and merge the
+            main into the second branch then
+            handle the conflicts. After the conlflicts are handeled, you checkout the main branch and initiate the merge
+            process once again to merge the second branch
+            into the main one. This is to say you have to do an extra step to merge when encutering conflicts.
+        </p>
+    </div>
+    <div class="title merging-to-main">
+        <h3>How to add, commit and push a merged branch to the repository</h3>
+        <p>When you perform a merge, you effectively merge one branch into another—typically a feature branch or bug fix
+            branch into a main branch such as master or develop.
+            Not only will the code changes get merged in, but also all the commits that went into the feature branch</p>
+        <p>
+            Create your new files or edit existing files in your local project directory. Enter git add --all at the
+            command line prompt in your local project directory to add the files or changes to the repository.
+            Enter git status to see the changes to be committed.
+        </p>
+        <ol type="1">
+            <li>Checkout the main branch and pull (beacuse you should ALWAYS pull)</li>
+            <li>If you experience conlflicts, checkout the note in the end of the text otherwise go to the next step
+            </li>
+            <li>Write the merge command followed by the branch you want to merge from</li>
+            <li>You finalize the merge by adding, commiting and pushing the changes</li>
+            <li>Now you have officially merged to branches!!</li>
+        </ol>
+        <p>
+            NOTE!<br>If you experience conflicts during your merge into the main branch, you should ALWAYS abort. This
+            is because
+            you should NEVER handle conflicts in the main branch. To merge when encountering conflicts you use the same
+            commands but
+            you checkout the branch where you did the changes, that is to say you go to the second branch and merge the
+            main into the second branch then
+            handle the conflicts. After the conlflicts are handeled, you checkout the main branch and initiate the merge
+            process once again to merge the second branch
+            into the main one. This is to say you have to do an extra step to merge when encutering conflicts.
+        </p>
+    </div>
 
-            <ul>
-                <li>git checkout <em>"branch name"</em>: It put you in the branch</li>
-                <li>git pull: Get you the latest version</li>
-                <li>git merge <em>"branch nanme": It will merge or fusionate to the main</li>
-                <li>git merge-abort: It will cancel the merg</li>
-            </ul>     
-          
-        </section>
-    </body>
+    <section class="merge-git-comand">
+
+        <h3 class="merge-git-comand title">GIT MERGE COMAND</h3>
+
+        <ul>
+            <li>git checkout <em>"branch name"</em>: It put you in the branch</li>
+            <li>git pull: Get you the latest version</li>
+            <li>git merge <em>"branch nanme": It will merge or fusionate to the main</li>
+            <li>git merge-abort: It will cancel the merg</li>
+        </ul>
+
+    </section>
+    <ol>
+        <li>Stash your local working branch changes. Checkout to your local branch</li>
+        <li>Update your local main branch with remote. Checkout to the master branch </li>
+        <li>Merge local working branch with master branch.</li>
+        <li>Get your stash changes and push your working branch.</li>
+        Note: git merge merges the specified branch into the currently active branch.
+    </ol>
+    </div>
+</body>
+
 </html>
