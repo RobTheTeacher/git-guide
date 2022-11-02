@@ -21,19 +21,32 @@
         </nav>
     </header>
 
-    <section>
-      <div class="task-3">
-          <h2>How to create a branch</h2>
-          <p>In order to create a branch you type:</p>
-          <p class="p2">git checkout -b branchname</p>
-      </div>
-      <div class="task-5">
+    <section class="branch__command">
+        <h2>Branch Commands</h2>
+        <p>git branch: shows current branch</p>
+        <p>git branch -v: shows verbose information on branches</p>
+        <p>git branch -r: shows remote branches</p>
+        <p>git branch -a: shows all branches</p>
+    </section>
+    
+    <section class="task-3">
+        <h2>How to create a branch</h2>
+        <p>In order to create a branch you type:</p>
+        <p class="p2">git checkout -b branchname</p>
+    </section>
+
+    <section class="change-branch">
+        <h2>How to change to another branch</h2>
+        <p>Move to a different branch: <span class="code">git checkout branch-name</span></p>
+        <p>Move to a remote branch: <span class="code">git branch -r</span> (to see remote branches) <span class="code">git checkout branch-name</span></p>
+    </section>
+    
+    <section class="task-5">
         <h2>How to push a new branch</h2>
         <p>Type <span class="git-push"> git push </span></p>
         <p>Then this will appear: <span class="git-push"> git push --set-upstream origin branchname </span></p>
         <p>Copy and paste this in the terminal</p>
-      </div>
     </section>
-    
+
 </body>
 </html>
