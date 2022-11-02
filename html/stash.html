@@ -48,6 +48,20 @@
     </div>
 
     <div class="task4 info-box-stash">
+        <h3>'git stash -u' command & flag </h3>
+        <p> <span class="important-words-stash">-u
+            --include-untracked
+            --no-include-untracked</span>
+            When used with the push and save commands, all untracked files are also stashed and then cleaned up with git clean.
+            
+            When used with the show command, show the untracked files in the stash entry as part of the diff.</p>
+
+        <p>Sometimes you want to stash a specific subset of changes, for this we can use the <span class="important-words-stash"> -- patch (-p) flag.</span> This allows us to interactively
+            specify which changes will be included in this stash.
+        </p>
+    </div>
+
+    <div class="task5 info-box-stash">
         <h3>Git Stash Pop</h3>
         <p> <span class="important-words-stash">Git stash pop</span> applies
              a removed single stashed state from the stash list, 
@@ -55,7 +69,7 @@
             The working directory have to match the index.
         </p>
     </div>
-
+ 
  </body>
 
 </html>
