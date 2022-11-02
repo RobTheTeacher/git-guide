@@ -31,3 +31,13 @@ h1{
     color: #cad2c5;
     text-decoration: none;
 }
+
+.task-3 {
+    background-color: #a3b18a;
+    max-width: fit-content;
+}
+
+.p2 {
+    color: rgba(231, 49, 49, 0.831);
+}
+
