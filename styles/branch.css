@@ -40,3 +40,18 @@ section{
     padding: 4px;
     background-color: #cad2c5;
 }
+
+.branch__command {
+    background-color: #cad2c5;
+    padding: 3rem;
+    max-width: fit-content;
+}
+.task-3 {
+    background-color: #a3b18a;
+    max-width: fit-content;
+}
+
+.p2 {
+    color: rgba(231, 49, 49, 0.831);
+}
+
