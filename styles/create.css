@@ -72,4 +72,10 @@ nav ul li a:hover{
 h3 {
 font-size: 2rem;
 padding: 30px;
+width: 50%;
+}
+
+.list-how-to {
+  width: 100%;
+
 }
