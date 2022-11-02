@@ -34,7 +34,6 @@ header {
   height: 50%;
   width: auto;
 }
-<<<<<<< HEAD
 
 .merge-links a {
   color: #ffffff;
@@ -51,6 +50,7 @@ header {
   background-color: #ffffff;
   padding: 14px;
   margin: 14px;
+}
 
 .merge-git-comand {
   background-color: white;
