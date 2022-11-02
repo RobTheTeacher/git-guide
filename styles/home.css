@@ -27,3 +27,29 @@ header {
   height: 50%;
   width: auto;
 }
+
+/*---- Stash ----*/
+
+.nav-bar-stash {
+  cursor: pointer;
+  text-align: center;
+  border-top: 1px solid #705D56;
+  border-bottom: 1px solid #705D56;
+}
+
+.nav-bar-stash ul a{
+  color: #ffffff;
+  font-family: adelle;
+  text-decoration: none;
+  padding: 3%;
+}
+
+
+.nav-bar-stash ul a:hover{
+  text-decoration: underline;
+}
+
+
+#Stash-link {
+  color: #F08A4B;
+}
