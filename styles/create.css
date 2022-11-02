@@ -6,7 +6,7 @@
  
 .header {
   width: 100%;
-  min-height: 100vh;
+  min-height: 40px;
   padding-left: 8%;
   padding-right: 8%;
   box-sizing: border-box;
