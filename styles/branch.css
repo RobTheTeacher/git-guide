@@ -41,3 +41,11 @@ h1{
     color: rgba(231, 49, 49, 0.831);
 }
 
+.task-5 {
+    background-color: #dad7cd;
+    max-width: fit-content;
+}
+
+.git-push {
+    color: red;
+}
