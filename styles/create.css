@@ -2,28 +2,28 @@
   margin: 0;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
 }
  
 .header {
   width: 100%;
   min-height: 40px;
-  padding-left: 8%;
-  padding-right: 8%;
+  padding-left: 14%;
+  padding-right: 14%;
   box-sizing: border-box;
   overflow: hidden;
+  background-color: #231f20;
 }
 
 .navbar {
   width: 100%;
   display: flex;
   align-items: center; 
-  margin-top: -20px;
 }
 
 .logo {
   width: 100px;
   cursor: pointer;
-  margin: 30px 0;
 }
 
 nav {
@@ -39,7 +39,7 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #000;
+  color: white;
   font-size: 14px;
 }
 
@@ -52,37 +52,20 @@ nav ul li a:hover{
   font-weight: bold;
 }
 
-.git-remote-add-origin {
+
+.area {
   padding: 20px;
   background-color: black;
   color: white;display: flex;
   justify-content: center;
-  width: 50%;
-  width: 50%;
-  margin: auto;
-  border-radius: 10px;
-  margin-top: 50px;
-}
-
-.git-remote-add-origin li {
-  list-style-type: auto;
-  padding: 10px;
-}
-
-.repsitory-area {
-  padding: 20px;
-  background-color: black;
-  color: white;display: flex;
-  justify-content: center;
-  width: 50%;
-  width: 50%;
+  width: 70%;
   margin: auto;
   border-radius: 10px;
   margin-top: 50px;
 }
 
 
-.repsitory-area li {
+.area li {
   list-style-type: auto;
   padding: 10px;
 }
@@ -96,4 +79,10 @@ width: 50%;
 .list-how-to {
   width: 100%;
 
+}
+
+.area p {
+  display: flex;
+  align-items: center;
+  width: 100%;
 }
