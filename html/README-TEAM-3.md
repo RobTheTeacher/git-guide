@@ -64,7 +64,7 @@ Task 5)
 
 Add an area explaining what happens when you push changes in a new branch, and what a user should do.
 
-Task )
+Task 6)
 
 Add an area explaining the 'git reset --hard HEAD' command an the dangers of using it
 
