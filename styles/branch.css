@@ -13,8 +13,14 @@ h1{
     margin: 0;
 }
 
+p{
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
 section{
-    margin: 3rem;
+    padding: 2rem;
+    background-color: #cad2c5;
 }
 
 .header{
@@ -36,29 +42,26 @@ section{
     text-decoration: none;
 }
 
-.code{
-    padding: 4px;
-    background-color: #cad2c5;
+.nav__link:hover{
+    color: #84a98c; 
 }
 
-.branch__command {
-    background-color: #cad2c5;
-    padding: 3rem;
-    max-width: fit-content;
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin: 2rem;
 }
-.task-3 {
-    background-color: #a3b18a;
-    max-width: fit-content;
+
+.code{
+    padding: 4px;
+    color: coral;
 }
 
 .p2 {
     color: rgba(231, 49, 49, 0.831);
 }
 
-.task-5 {
-    background-color: #dad7cd;
-    max-width: fit-content;
-}
 
 .git-push {
     color: red;
