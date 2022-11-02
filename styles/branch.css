@@ -13,6 +13,10 @@ h1{
     margin: 0;
 }
 
+section{
+    margin: 3rem;
+}
+
 .header{
     display: flex;
     justify-content: space-between;
@@ -30,4 +34,9 @@ h1{
 .nav__link{
     color: #cad2c5;
     text-decoration: none;
+}
+
+.code{
+    padding: 4px;
+    background-color: #cad2c5;
 }
