@@ -16,6 +16,7 @@ header {
   height: 30%;
   padding: 64px;
   text-align: center;
+  position: relative;
 }
 
 .git-logo {
@@ -67,9 +68,35 @@ header {
   width: 50%;
   margin: auto;
   margin-top: 5%;
+  transition: 1s;
+}
+
+.info-box-stash:hover {
+  box-shadow: 0 0 30px #ffffff;
 }
 
 .important-words-stash {
   font-style: italic;
   color: #F08A4B;
+}
+
+
+.header-stash {
+  padding: 10%;
+}
+
+.header-stash:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
+  background-image: url(../images/treasure-chest-09.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-attachment: fixed;
+  background-size: cover;
 }
