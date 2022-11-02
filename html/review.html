@@ -1,35 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>The Git Guide</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../styles/home.css">
-    </head>
+  <head>
+      <title>The Git Guide</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="../styles/home.css">
+  </head>
     <body>
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="./create.html">Create</a></li>
-                    <li><a href="./branch.html">Branching</a></li>
-                    <li><a href="./add.html">Add changes</a></li>
-                    <li><a href="./review.html">Review changes</a></li>
-                    <li><a href="./merge.html">Merge</a></li>
-                    <li><a href="./stash.html">Stash</a></li>
-                </ul>
-            </nav>
-        </header>
-        <div class="git-status">
-            <h2>Git Status</h2>
-            <code>git status [<options>…​] [--] [<pathspec>…​]</code>
-            <p>Shows files that have changed. Displays paths that have differences between the index file and the current HEAD commit, paths that have differences between the working tree and the index file, and paths in the working tree that are not tracked by Git.
-            </p>
-            <p>The first are what you <strong>would</strong> commit by running <code>git commit</code>; the second and third are what you <strong>could</strong> commit by running <strong>git add</strong> before running <code>git commit</code>.</p>
-            <h3>Example</h3>
-            <code>git status -v --verbose</code>
-            <p>Shows names of files that are changed and the textual changes.</p>
-            <p>For a list of more options and what they do, have a look at:
-            <br>
-            <a href="https://git-scm.com/docs/git-status">https://git-scm.com/docs/git-status</a>
-            </p>
-        </div>
-</body>
+       <header>
+           <nav>
+               <ul>
+                   <li><a href="./create.html">Create</a></li>
+                   <li><a href="./branch.html">Branching</a></li>
+                   <li><a href="./add.html">Add changes</a></li>
+                   <li><a href="./review.html">Review changes</a></li>
+                   <li><a href="./merge.html">Merge</a></li>
+                   <li><a href="./stash.html">Stash</a></li>
+               </ul>
+           </nav>
+       </header>
+       <div class="git-status">
+           <h2>Git Status</h2>
+           <code>git status [<options>…​] [--] [<pathspec>…​]</code>
+           <p>Shows files that have changed. Displays paths that have differences between the index file and the current HEAD commit, paths that have differences between the working tree and the index file, and paths in the working tree that are not tracked by Git.
+           </p>
+           <p>The first are what you <strong>would</strong> commit by running <code>git commit</code>; the second and third are what you <strong>could</strong> commit by running <strong>git add</strong> before running <code>git commit</code>.</p>
+           <h3>Example</h3>
+           <code>git status -v --verbose</code>
+           <p>Shows names of files that are changed and the textual changes.</p>
+           <p>For a list of more options and what they do, have a look at:
+           <br>
+           <a href="https://git-scm.com/docs/git-status">https://git-scm.com/docs/git-status</a>
+           </p>
+       </div>
+       <div>
+         <h2>Git Diff</h2>
+         <P>"git diff" is a command to show the changes made in the main file, your commits and the working tree</P>
+       </div>
+  </body>
+
+</html>
