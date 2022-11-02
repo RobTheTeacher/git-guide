@@ -100,3 +100,17 @@ header {
   background-attachment: fixed;
   background-size: cover;
 }
+
+footer{
+  padding: 5%;
+  color: #ffffff;
+  border-top: 1px solid #705D56;
+  border-bottom: 1px solid #705D56;
+  text-align: center;
+  margin-top: 5%;
+  transition: 1s;
+}
+
+footer:hover {
+  box-shadow: 0 0 30px #ffffff;
+}
