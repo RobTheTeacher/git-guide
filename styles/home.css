@@ -2,6 +2,10 @@ html {
   height: 100vh;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #231f20;
   height: 100%;
@@ -9,10 +13,13 @@ body {
   margin: 0;
 }
 
-header {
-  color: #ffffff;
+h2 {
   font-size: 64px;
   font-weight: 700;
+}
+
+header {
+  color: #ffffff;
   height: 30%;
   padding: 64px;
   text-align: center;
@@ -20,10 +27,27 @@ header {
 
 .git-logo {
   background-color: #231f20;
-  background-image: url('../images/git-logo.png') ;
+  background-image: url('../images/git-logo.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   height: 50%;
   width: auto;
+}
+
+.merge-links a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 14px;
+}
+
+.merge-links a:hover {
+  text-decoration: underline;
+}
+
+.merge-flow {
+  border-radius: 20px;
+  background-color: #ffffff;
+  padding: 14px;
+  margin: 14px;
 }

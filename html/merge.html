@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Git Guide - Merge Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../styles/home.css">
+    </head>
+
+    <body>
+        <header>      
+            <h1>Merge</h1>
+            <nav class="merge-links">
+              <a href='./create.html'>Create</a>
+              <a href='./branch.html'>Branching</a>
+              <a href='./add.html'>Add Changes</a>
+              <a href='./review.html'>Review Changes</a>
+              <a href='./merge.html'>Merge</a>
+              <a href='./stash.html'>Stash</a>
+            </nav>
+        </header>
+        <div class="merge-flow">
+            <h3>Explaning the merge flow</h3>
+            <p>
+                The merge flow is a complicated process, maybe not as complicated as we think. 
+                You have a main branch for the work and create new branches from that. When you have finished your 
+                work and want to merge your work to the main branch you initiate the merge command which has several steps. 
+                This guide explanes how you merge a second branch to the main one. 
+            </p>
+            <ol type="1">
+                <li>Checkout the main branch and pull (beacuse you should ALWAYS pull)</li>
+                <li>If you experience conlflicts, checkout the note in the end of the text otherwise go to the next step</li>
+                <li>Write the merge command followed by the branch you want to merge from</li>
+                <li>You finalize the merge by adding, commiting and pushing the changes</li>
+                <li>Now you have officially merged to branches!!</li>
+            </ol>
+            <p>
+                NOTE!<br>If you experience conflicts during your merge into the main branch, you should ALWAYS abort. This is because 
+                you should NEVER handle conflicts in the main branch. To merge when encountering conflicts you use the same commands but 
+                you checkout the branch where you did the changes, that is to say you go to the second branch and merge the main into the second branch then
+                handle the conflicts. After the conlflicts are handeled, you checkout the main branch and initiate the merge process once again to merge the second branch 
+                into the main one. This is to say you have to do an extra step to merge when encutering conflicts.
+            </p>
+        </div>
+    </body>
+</html>
