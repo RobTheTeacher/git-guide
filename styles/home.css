@@ -42,6 +42,8 @@ header {
 
 .merge-links a:hover {
   text-decoration: underline;
+}
+
 .merge-flow {
   border-radius: 20px;
   background-color: #ffffff;
