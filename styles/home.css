@@ -34,22 +34,12 @@ header {
   height: 50%;
   width: auto;
 }
-nav{
-  display: flex;
-  justify-content: flex-end;
-  
-}
-.menu-items{
-    display:flex;
-    height: auto;
-    width: 30%;
-    justify-content: space-between;
-   
-}
-nav a{
+
+.merge-links a {
   color: #ffffff;
   text-decoration: none;
 }
-nav a:hover{
-  color: aqua;
+
+.merge-links a:hover {
+  text-decoration: underline;
 }
