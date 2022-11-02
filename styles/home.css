@@ -38,6 +38,7 @@ header {
 .merge-links a {
   color: #ffffff;
   text-decoration: none;
+  padding: 14px;
 }
 
 .merge-links a:hover {
