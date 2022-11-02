@@ -6,7 +6,7 @@
  
 .header {
   width: 100%;
-  min-height: 100vh;
+  min-height: 40px;
   padding-left: 8%;
   padding-right: 8%;
   box-sizing: border-box;
@@ -63,8 +63,23 @@ nav ul li a:hover{
   border-radius: 10px;
   margin-top: 50px;
 }
+.repsitory-area {
+  padding: 20px;
+  background-color: black;
+  color: white;display: flex;
+  justify-content: center;
+  width: 50%;
+  width: 50%;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 50px;
+}
 
 .git-remote-add-origin li {
+  list-style-type: auto;
+  padding: 10px;
+}
+.repsitory-area li {
   list-style-type: auto;
   padding: 10px;
 }
