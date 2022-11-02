@@ -59,6 +59,17 @@ header {
   color: #F08A4B;
 }
 
+.info-box-stash {
+  color: #ffffff;
+  text-align: center;
+  padding: 5%;
+  border: 1px solid #705D56;
+  width: 50%;
+  margin: auto;
+  margin-top: 5%;
+}
+
 .important-words-stash {
   font-style: italic;
+  color: #F08A4B;
 }
