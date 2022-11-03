@@ -31,7 +31,7 @@
         </p>
         <ol type="1">
             <li>Checkout the main branch and pull (beacuse you should ALWAYS pull)</li>
-            <li>If you experience conlflicts, checkout the note in the end of the text otherwise go to the next step
+            <li>If you experience conflicts, checkout the note in the end of the text otherwise go to the next step
             </li>
             <li>Write the merge command followed by the branch you want to merge from</li>
             <li>You finalize the merge by adding, commiting and pushing the changes</li>
@@ -55,9 +55,24 @@
         <ul>
             <li>git checkout <em>"branch name"</em>: It put you in the branch</li>
             <li>git pull: Get you the latest version</li>
-            <li>git merge <em>"branch nanme": It will merge or fusionate to the main</li>
-            <li>git merge-abort: It will cancel the merg</li>
+            <li>git merge <em>"branch nanme"</em>: It will merge or fusionate from where you are</li>
+            <li>git add . : It will add all your files are linked to the branch</li>
+            <li>git commit -m <em>"write a message here"</em></li>
+            <li>git push : it will create the merge</li>
+            <br>
+            <li>git merge --abort: It will cancel the merge</li>
         </ul>
+    </section>
+
+    <section class="merge-git-conflicts">
+        <h3>CONFLICTS IN THE MERGE</h3>
+        <p>Something to be aware when you do the merge is always to do it from the 
+            main to the branch, in that way you will always be secure that if any conflict 
+            happens is going to be in the branch.</p>
+        <p>When you have done the merge it can show some conflic in the code, in that case 
+            you should check manually which code you want to keep and to remove everything else.
+            Making sure all the code from up to down is clean. When all has been checked then you 
+            can add, commit and push the task.</p>
     </section>
 
     <div class="title merging-to-main">

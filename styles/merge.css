@@ -2,7 +2,7 @@
 body {
     margin-left: 24px;
     line-height: 2rem;
-}
+   }
 
 h3 {
     font-weight:bold;
@@ -22,6 +22,7 @@ h3 {
   
   .merge-flow,
   .merge-git-comand,
+  .merge-git-conflicts,
   .merging-to-main,
   .merge-git-abort {
     border-radius: 20px;
