@@ -1,25 +1,33 @@
-html {
-    height: 100vh;
-}
-
-* {
-    box-sizing: border-box;
-}
 
 body {
-    background-color: #231f20;
-    height: 100%;
-    font-family: adelle;
-    margin: 0;
-    color: beige;
     margin-left: 24px;
     line-height: 2rem;
-    
 }
 
 h3 {
     font-weight:bold;
     text-decoration: underline;
     letter-spacing: 0.1em;
-
 }
+
+.merge-links a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 14px;
+  }
+  
+  .merge-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .merge-flow,
+  .merge-git-comand,
+  .merging-to-main,
+  .merge-git-abort {
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding: 14px;
+    margin: 14px;
+    color: #231f20;
+  }
+  

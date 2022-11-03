@@ -20,7 +20,8 @@
             <a href='./stash.html'>Stash</a>
         </nav>
     </header>
-    <div class="title explane-merge">
+    
+    <div class="merge-flow">
         <h3>Explaning the merge flow</h3>
         <p>
             The merge flow is a complicated process, maybe not as complicated as we think.
@@ -50,24 +51,14 @@
     </div>
 
     <section class="merge-git-comand">
-
         <h3 class="merge-git-comand title">GIT MERGE COMAND</h3>
-
         <ul>
             <li>git checkout <em>"branch name"</em>: It put you in the branch</li>
             <li>git pull: Get you the latest version</li>
             <li>git merge <em>"branch nanme": It will merge or fusionate to the main</li>
             <li>git merge-abort: It will cancel the merg</li>
         </ul>
-
     </section>
-    <ol>
-        <li>Stash your local working branch changes. Checkout to your local branch</li>
-        <li>Update your local main branch with remote. Checkout to the master branch </li>
-        <li>Merge local working branch with master branch.</li>
-        <li>Get your stash changes and push your working branch.</li>
-        Note: git merge merges the specified branch into the currently active branch.
-    </ol>
 
     <div class="title merging-to-main">
         <h3>How to add, commit and push a merged branch to the repository</h3>
@@ -83,15 +74,17 @@
             </ol> 
     </div>
 
-    <div>
+    <div class="merge-git-abort">
         <h3>'git merge --abort'</h3>
         <p>
             The “git merge --abort” operation essentially terminates the merger that you have just carried out and 
             separated the two versions of your file,i.e., the current version and the older version.
             <br>
             Note:Use git-reset or git merge --abort to cancel a merge that had conflicts. Please note that all the changes will be reset, 
-            and this operation cannot be reverted, so make sure to commit or git-stash all your changes before you start a merge.</p>
+            and this operation cannot be reverted, so make sure to commit or git-stash all your changes before you start a merge.
+        </p>
     </div>
+
 </body>
 
 </html>

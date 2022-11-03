@@ -35,23 +35,3 @@ header {
   width: auto;
 }
 
-.merge-links a {
-  color: #ffffff;
-  text-decoration: none;
-  padding: 14px;
-}
-
-.merge-links a:hover {
-  text-decoration: underline;
-}
-
-.merge-flow {
-  border-radius: 20px;
-  background-color: #ffffff;
-  padding: 14px;
-  margin: 14px;
-}
-
-.merge-git-comand {
-  background-color: white;
-}
