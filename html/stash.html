@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>The Git Guide</title>
+        <title>Git Stash</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../styles/home.css">
+        <link rel="stylesheet" href="../styles/stash.css">
     </head>
-<body>
+    <body>
     <header class="header-stash">
         <div>Stash</div>
         <div class="git-logo"></div>
@@ -34,21 +34,22 @@
 
     <div class="task3 info-box-stash">
         <h3>Detailing Git Stash command.</h3>
-        <p>Use <span class="important-words-stash">git stash</span> when
-        you want to save your local content/modifications, but go back to a clean
-        working directory.<br>
-        The commands you 'stashed away' will be showed to you when using
-        <span class="important-words-stash">git stash list</span>.<br>
-        Inspect with <span class="important-words-stash">git stash show</span> and 
-        restore with <span class="important-words-stash">git stash apply</span>.<br>
-        Calling <span class="important-words-stash">git stash</span> is equivalent to
-        <span class="important-words-stash">git stash push</span>.
+        <p>
+            Use <span class="important-words-stash">git stash</span> when
+            you want to save your local content/modifications, but go back to a clean
+            working directory.
+            <br>The commands you 'stashed away' will be showed to you when using
+            <span class="important-words-stash">git stash list</span>.
+            <br>Inspect with <span class="important-words-stash">git stash show</span> and 
+            restore with <span class="important-words-stash">git stash apply</span>.
+            <br>Calling <span class="important-words-stash">git stash</span> is equivalent to
+            <span class="important-words-stash">git stash push</span>.
          </p>
     </div>
 
     <div class="task4 info-box-stash">
         <h3>'git stash -u' command & flag </h3>
-        <p> <span class="important-words-stash">-u
+        <p><span class="important-words-stash">-u
             --include-untracked
             --no-include-untracked</span>
             When used with the push and save commands, all untracked files are also stashed and then cleaned up with git clean.
@@ -62,8 +63,8 @@
 
     <div class="task5 info-box-stash">
         <h3>Git Stash Pop</h3>
-        <p> <span class="important-words-stash">Git stash pop</span> applies
-             a removed single stashed state from the stash list, 
+        <p><span class="important-words-stash">Git stash pop</span> applies
+            a removed single stashed state from the stash list, 
             on top of the current working state tree.<br>
             The working directory have to match the index.
         </p>
