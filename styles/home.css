@@ -31,11 +31,11 @@ header {
 
 /*---- Stash ----*/
 
-.nav-bar-stash {
-  cursor: pointer;
-  text-align: center;
+.nav-bar-stash { 
   border-top: 1px solid #705D56;
   border-bottom: 1px solid #705D56;
+  cursor: pointer;
+  text-align: center;
   transition: 1s;
 }
 
@@ -45,9 +45,10 @@ header {
 
 .nav-bar-stash ul a{
   color: #ffffff;
-  font-family: adelle;
-  text-decoration: none;
+  font-family: adelle; 
   padding: 3%;
+  text-decoration: none;
+ 
 }
 
 
@@ -62,22 +63,22 @@ header {
 
 .info-box-stash {
   color: #ffffff;
-  text-align: center;
-  padding: 5%;
   border: 1px solid #705D56;
-  width: 50%;
   margin: auto;
   margin-top: 5%;
+  padding: 5%;
+  text-align: center;
   transition: 1s;
+  width: 50%;
 }
 
 .info-box-stash:hover {
   box-shadow: 0 0 30px #ffffff;
 }
 
-.important-words-stash {
-  font-style: italic;
+.important-words-stash { 
   color: #F08A4B;
+  font-style: italic;
 }
 
 
@@ -85,29 +86,29 @@ header {
   padding: 10%;
 }
 
-.header-stash:before {
-  content: ' ';
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0.4;
+.header-stash:before { 
   background-image: url(../images/treasure-chest-09.jpg);
   background-repeat: no-repeat;
   background-position: 50% 0;
   background-attachment: fixed;
   background-size: cover;
+  content: ' ';
+  display: block;
+  height: 100%;
+  left: 0;
+  top: 0;
+  opacity: 0.4;
+  position: absolute;
+  width: 100%;
 }
 
 footer{
-  padding: 5%;
-  color: #ffffff;
   border-top: 1px solid #705D56;
   border-bottom: 1px solid #705D56;
-  text-align: center;
+  color: #ffffff;
   margin-top: 5%;
+  padding: 5%;
+  text-align: center;
   transition: 1s;
 }
 
