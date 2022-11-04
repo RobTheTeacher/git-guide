@@ -13,13 +13,10 @@ body {
   margin: 0;
 }
 
-h2 {
-  font-size: 64px;
-  font-weight: 700;
-}
-
 header {
   color: #ffffff;
+  font-size: 64px;
+  font-weight: 700;
   height: 30%;
   padding: 64px;
   text-align: center;
@@ -34,5 +31,26 @@ header {
   background-size: contain;
   height: 50%;
   width: auto;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.git-page {
+  border: 1px solid #fff;
+  border-radius: 10px;
+  color: #ffffff;
+  display: block;
+  flex: 0 0 45%;
+  padding: 24px;
+  margin: 24px auto;
+  text-decoration: none;
+}
+
+.git-page:hover {
+  text-decoration: underline;
 }
 
