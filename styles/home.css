@@ -48,7 +48,6 @@ header {
   font-family: adelle; 
   padding: 3%;
   text-decoration: none;
- 
 }
 
 
@@ -96,9 +95,9 @@ header {
   display: block;
   height: 100%;
   left: 0;
-  top: 0;
   opacity: 0.4;
   position: absolute;
+  top: 0;
   width: 100%;
 }
 
