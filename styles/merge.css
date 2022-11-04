@@ -3,8 +3,8 @@ body {
     line-height: 2rem;
 }
 
-h3 {
-    font-weight:bold;
+.text-box h3 {
+    font-weight: bold;
     text-decoration: underline;
     letter-spacing: 0.1em;
 }
@@ -19,11 +19,7 @@ h3 {
     text-decoration: underline;
 }
   
-.merge-flow,
-.merge-git-command,
-.merge-git-conflicts,
-.merge-to-main,
-.merge-git-abort {
+.text-box {
     border-radius: 20px;
     background-color: #ffffff;
     padding: 14px;

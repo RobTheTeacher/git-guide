@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 
 <html>
-
     <head>
         <title>Git Guide - Merge Page</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,7 +21,7 @@
             </nav>
         </header>
     
-        <div class="merge-flow">
+        <div class="text-box">
             <h3>Explaning the merge flow</h3>
             <p>
                 The merge flow is a complicated process, maybe not as complicated as we think.
@@ -48,8 +47,8 @@
             </p>
         </div>
 
-        <section class="merge-git-command">
-            <h3 class="merge-git-command title">GIT MERGE COMAND</h3>
+        <section class="text-box">
+            <h3>Git merge command</h3>
             <ul>
                 <li>git checkout <em>"branch name"</em>: It put you in the branch</li>
                 <li>git pull: Get you the latest version</li>
@@ -61,8 +60,8 @@
             </ul>
         </section>
 
-        <section class="merge-git-conflicts">
-            <h3>CONFLICTS IN THE MERGE</h3>
+        <section class="text-box">
+            <h3>Conflicts in the merge</h3>
             <p>
                 Something to be aware when you do the merge is always to do it from the 
                 main to the branch, in that way you will always be secure that if any conflict 
@@ -76,7 +75,7 @@
             </p>
         </section>
 
-        <div class="merge-to-main title">
+        <div class="text-box">
             <h3>How to add, commit and push a merged branch to the repository</h3>
             <p>
                 When you perform a merge, you effectively merge one branch into another—typically a feature branch or bug fix
@@ -88,20 +87,26 @@
                 <li>Update your local main branch with remote. Checkout to the main branch </li>
                 <li>Merge local working branch with main branch.</li>
                 <li>Get your stash changes and push your working branch.</li>
-                NOTE! git merge merges the specified branch into the currently active branch.
             </ol> 
+            <p>
+                NOTE! 
+                <br> 
+                "git merge" merges the specified branch into the currently active branch.
+            </p>
         </div>
 
-        <div class="merge-git-abort">
-            <h3>'git merge --abort'</h3>
+        <div class="text-box">
+            <h3>"git merge --abort" command</h3>
             <p>
                 The “git merge --abort” operation essentially terminates the merger that you have just carried out and 
                 separated the two versions of your file,i.e., the current version and the older version.
+            </p>
+            <p>
+                NOTE! 
                 <br>
-                NOTE! Use git-reset or git merge --abort to cancel a merge that had conflicts. Please note that all the changes will be reset, 
+                Use git-reset or git merge --abort to cancel a merge that had conflicts. Please note that all the changes will be reset, 
                 and this operation cannot be reverted, so make sure to commit or git-stash all your changes before you start a merge.
             </p>
         </div>
     </body>
-
 </html>
