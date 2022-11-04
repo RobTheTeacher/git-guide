@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Branch</title>
+    <link rel="stylesheet" href="../styles/branch.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1>Branch</h1>
+        <nav class="nav">
+            <div class="nav__item"><a href="./create.html" class="nav__link">Create</a></div>
+            <div class="nav__item"><a href="./branch.html" class="nav__link">Branching</a></div>
+            <div class="nav__item"><a href="./add.html" class="nav__link">Add Changes</a></div>
+            <div class="nav__item"><a href="./review.html" class="nav__link">Review Changes</a></div>
+            <div class="nav__item"><a href="./merge.html" class="nav__link">Merge</a></div>
+            <div class="nav__item"><a href="./stash.html" class="nav__link">Stash</a></div>
+        </nav>
+    </header>
+
+    <section class="content">
+        <div>
+            <h2>Branch Commands</h2>
+            <p>Show current branch: <span class="code">git branch</span></p>
+            <p>Show verbose information on branches: <span class="code">git branch -v</span></p>
+            <p>Show remote branches: <span class="code">git branch -r</span></p>
+            <p>Show all branches: <span class="code">git branch -a</span></p>
+        </div>
+        
+        <div>
+            <h2>How to create a branch</h2>
+            <p>Create a new branch: <span class="code">git checkout -b branchname</span></p>
+        </div>
+
+        <div>
+            <h2>How to change to another branch</h2>
+            <p>Move to a different branch: <span class="code">git checkout branch-name</span></p>
+            <p>Move to a remote branch: <span class="code">git branch -r</span> (to see remote branches) <span class="code">git checkout branch-name</span></p>
+        </div>
+        
+        <div>
+            <h2>How to push a new branch</h2>
+            <p>Start with:<span class="code"> git push </span></p>
+            <p>Then this will appear: <span class="code"> git push --set-upstream origin branchname </span></p>
+            <p>Copy and paste this into the terminal</p>
+        </div>
+    </section>
+
+</body>
+</html>
