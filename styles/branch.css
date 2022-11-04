@@ -4,26 +4,26 @@
     src: url('../fonts/adelle/adelle_reg-webfont.woff2') format('woff2');
 }
 
-body{
+body {
     margin: 0;
     font-family: 'Adelle';
     color: #2f3e46;
 }
 
-h1{
+h1 {
     margin: 0;
 }
 
-h2{
+h2 {
     margin: 0;
 }
 
-p{
+p {
     font-size: 1rem;
     line-height: 1.5;
 }
 
-.header{
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,33 +32,33 @@ p{
     color: #cad2c5;
 }
 
-.nav{
+.nav {
     display: flex;
     gap: 2rem;
 }
 
-.nav__link{
+.nav__link {
     color: #cad2c5;
     text-decoration: none;
 }
 
-.nav__link:hover{
+.nav__link:hover {
     color: #84a98c; 
 }
 
-.content{
+.content {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
     margin: 2rem;
 }
 
-.content > div{
+.content > div {
     padding: 2rem;
     background-color: #cad2c5;
 }
 
-.code{
+.code {
     padding: 4px;
     color: #ff7f50;
 }
