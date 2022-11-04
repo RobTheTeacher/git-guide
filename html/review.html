@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>The Git Guide</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../styles/home.css">
+  <link rel="stylesheet" href="../styles/review.css">
+</head>
+
+<body>
+  <header>
+    <h1>Git Review</h1>
+    <nav class="nav-container">
+      <ul>
+        <li><a href="./create.html">Create</a></li>
+        <li><a href="./branch.html">Branching</a></li>
+        <li><a href="./add.html">Add changes</a></li>
+        <li><a href="./review.html">Review changes</a></li>
+        <li><a href="./merge.html">Merge</a></li>
+        <li><a href="./stash.html">Stash</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main">
+    <div class="git-status main-item">
+      <h2>Git Status</h2>
+      <code>git status [<options>…​] [--] [<pathspec>…​]</code>
+      <p>Shows files that have changed. Displays paths that have differences between the index file and the current HEAD
+        commit, paths that have differences between the working tree and the index file, and paths in the working tree
+        that are not tracked by Git.
+      </p>
+      <p>The first are what you <strong>would</strong> commit by running <code>git commit</code>; the second and third
+        are what you <strong>could</strong> commit by running <strong>git add</strong> before running
+        <code>git commit</code>.
+      </p>
+      <h3>Example</h3>
+      <code>git status -v --verbose</code>
+      <p>Shows names of files that are changed and the textual changes.</p>
+      <p>For a list of more options and what they do, have a look at:
+        <br>
+        <a href="https://git-scm.com/docs/git-status">https://git-scm.com/docs/git-status</a>
+      </p>
+    </div>
+    <div class="main-item">
+      <h2>Git Diff</h2>
+      <P>"git diff" is a command to show the changes made in the main file, your commits and the working tree</P>
+    </div>
+    <div class="git-pull main-item">
+      <h2>Git Pull</h2>
+      <code>git pull [<options>] [<repository> [<refspec>…​]]</code>
+      <p>Updates local with the latest changes from a remote repository into the current branch. It's very important for
+        version control to keep up with the changes and working on the latest updates.
+      </p>
+      <p><code><repository></code> should be the name of a remote repository. <code><refspec></code> can name an
+        arbitrary remote ref (for example, the name of a tag) or even a collection of refs with corresponding
+        remote-tracking branches (e.g., refs/heads/*:refs/remotes/origin/*), but usually it is the name of a branch in
+        the remote repository.</p>
+    </div>
+    <div class="main-item">
+      <h2>Git Log</h2>
+      <P>"git log" shows your logged commits</P>
+    </div>
+  </main>
+  <footer>&copy;Cawpierite</footer>
+</body>
+
+</html>
