@@ -23,11 +23,6 @@ p{
     line-height: 1.5;
 }
 
-.content > div{
-    padding: 2rem;
-    background-color: #cad2c5;
-}
-
 .header{
     display: flex;
     justify-content: space-between;
@@ -56,6 +51,11 @@ p{
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
     margin: 2rem;
+}
+
+.content > div{
+    padding: 2rem;
+    background-color: #cad2c5;
 }
 
 .code{
