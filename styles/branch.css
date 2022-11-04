@@ -1,6 +1,7 @@
 @font-face {
     font-family: 'Adelle';
     src: url('../fonts/adelle/adelle_reg-webfont.woff') format('woff');
+    src: url('../fonts/adelle/adelle_reg-webfont.woff2') format('woff2');
 }
 
 body{
@@ -13,12 +14,16 @@ h1{
     margin: 0;
 }
 
+h2{
+    margin: 0;
+}
+
 p{
     font-size: 1rem;
     line-height: 1.5;
 }
 
-section{
+.content > div{
     padding: 2rem;
     background-color: #cad2c5;
 }
@@ -55,14 +60,5 @@ section{
 
 .code{
     padding: 4px;
-    color: coral;
-}
-
-.p2 {
-    color: rgba(231, 49, 49, 0.831);
-}
-
-
-.git-push {
-    color: red;
+    color: #ff7f50;
 }
