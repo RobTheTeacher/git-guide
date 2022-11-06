@@ -6,20 +6,24 @@ body {
     line-height: 1.6em;
     margin: 0;
 }
+
 h2{
     font-style: normal;
     font-weight: bold;
     text-decoration: underline;
 }
+
 .container {
     width:90%;
     margin: auto;
     overflow: hidden;
 }
+
 em {
     color: rgb(175, 49, 2);
     text-decoration: underline;
 }
+
 .box-1 {
     border: 1px rgb(34, 18, 18) solid;
     background-color: bisque;
@@ -27,21 +31,26 @@ em {
     padding: 10px;
     border-radius: 15px;
   }
+
 #main-header {
     background-color: rgb(241, 70, 8);
     color: #fff;
 }
+
 #navbar {
     background-color: #333;
     color: #fff;
 }
+
 #navbar ul {
     padding: 0;
     list-style: none;
 }
+
 #navbar li {
     display: inline;
 }
+
 #navbar a {
     color: #fff;
     text-decoration: none;
@@ -49,6 +58,7 @@ em {
     padding-right: 40px;
     padding-left: 20px;
 }
+
 #navbar a:hover {
     text-decoration: underline;
-  }
+}
