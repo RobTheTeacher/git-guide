@@ -1,0 +1,28 @@
+body {
+    margin-left: 24px;
+    line-height: 2rem;
+}
+
+.text-box h3 {
+    font-weight: bold;
+    text-decoration: underline;
+    letter-spacing: 0.1em;
+}
+
+.merge-links a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 14px;
+}
+  
+.merge-links a:hover {
+    text-decoration: underline;
+}
+  
+.text-box {
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding: 14px;
+    margin: 14px;
+    color: #231f20;
+} 

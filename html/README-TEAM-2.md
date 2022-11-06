@@ -1,24 +1,25 @@
-Hello TEAM-3!!!
+Hello TEAM-2!!!
 
 This task is to develop your git skills and project organisation. You will run into conflicts when merging your branches and you will need to work together to solve them.
 
 --------------------------------------
 
-Your job is to complete the add.html page. This page will explain how to add changes to a git repository.
+Your job is to complete the branch.html page. This page will explain how to use branches in a git project.
 
 The page itself has been created in the /html directory, but it is empty! You'll have to create any additional directories and files you need - css, images, etc.
+
 
 The page layout, design, colours and style are entirely up to you. The tasks tell you what you have to complete, how you do it is your choice.
 
 --------------------------------------
 
-You MUST only work inside the team-3 branch. 
+You MUST only work inside the team-2 branch. 
 
 Each team member MUST complete at least one of the following tasks.
 
-Each task MUST be completed in a separate branch that is created from the team-3 branch.
+Each task MUST be completed in a separate branch that is created from the team-2 branch.
 
-Name your branches team-3-task-1 or something similar.
+Name your branches team-2-task-1 or something similar.
 
 Complete your work, then merge your task branch into the team branch. 
 
@@ -50,32 +51,23 @@ The navigation bar must have the following items:
 
 Task 2)
 
-Add a area on the page detailing the 'git add' command. Explain how to use it to add individual files, or all files.
+Add a area on the page detailing the 'git branch' command. Explain how to use it.
+
+Explain what the -v, -r and -a flags mean.
 
 Task 3)
 
-Add an area to the page detailing the 'git commit' command. Explain the need for semantic messages.
+Add an area to the page explaining how to create a new branch.
 
 Task 4)
 
-<<<<<<< HEAD:html/README-TEAM-3.md
-Add an area on the page detailing the 'git push' command.
-=======
-Add an area on the page showing how to use the 'git remote add origin' command. Screenshots are probably a good idea.
->>>>>>> main:html/README-TEAM-1.md
+Add an area on the page showing how to change to another branch.
+
+Show how to change to a branch you do not have in your local repository (hint: a branch you won't see with 'git branch').
 
 Task 5)
 
-Add an area explaining what happens when you push changes in a new branch, and what a user should do.
-
-Task 6)
-
-Add an area explaining the 'git reset --hard HEAD' command an the dangers of using it
-
-
-Task 6)
-
-Add an area explaining how to clone an existing repository from github
+Add an area to your page showing how to push a new branch
 
 --------------------------------------
 

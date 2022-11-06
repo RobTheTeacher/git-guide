@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'Adelle';
+    src: url('../fonts/adelle/adelle_reg-webfont.woff') format('woff');
+    src: url('../fonts/adelle/adelle_reg-webfont.woff2') format('woff2');
+}
+
+body {
+    margin: 0;
+    font-family: 'Adelle';
+    color: #2f3e46;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+    background-color: #2f3e46;
+    color: #cad2c5;
+}
+
+.nav {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav__link {
+    color: #cad2c5;
+    text-decoration: none;
+}
+
+.nav__link:hover {
+    color: #84a98c; 
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin: 2rem;
+}
+
+.content > div {
+    padding: 2rem;
+    background-color: #cad2c5;
+}
+
+.code {
+    padding: 4px;
+    color: #ff7f50;
+}

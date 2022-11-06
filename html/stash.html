@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Git Stash</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../styles/stash.css">
+    </head>
+    <body>
+    <header class="header-stash">
+        <div>Stash</div>
+        <div class="git-logo"></div>
+    </header>
+
+    <div class="nav-bar-stash">
+        <ul>
+            <a href="./create.html">Create</a>
+            <a href="./branch.html">Branching</a>
+            <a href="./add.html">Add Changes</a>
+            <a href="./review.html">Review Changes</a>
+            <a href="./merge.html">Merge</a>
+            <a href="./stash.html" id="Stash-link">Stash</a>
+        </ul>
+    </div>
+
+    <div class="task2 info-box-stash">
+        <h3>Why is the stash command useful?</h3>
+        <p>
+            You can use the git stash command when you want to record the current state of the 
+            working directory and the index, but want to go back to a clean 
+            working directory. The command saves your local modifications away 
+            and reverts the working directory to match the HEAD commit.
+        </p>
+    </div>
+
+    <div class="task3 info-box-stash">
+        <h3>Detailing Git Stash command.</h3>
+        <p>
+            Use <span class="important-words-stash">git stash</span> when
+            you want to save your local content/modifications, but go back to a clean
+            working directory.
+            <br>The commands you 'stashed away' will be showed to you when using
+            <span class="important-words-stash">git stash list</span>.
+            <br>Inspect with <span class="important-words-stash">git stash show</span> and 
+            restore with <span class="important-words-stash">git stash apply</span>.
+            <br>Calling <span class="important-words-stash">git stash</span> is equivalent to
+            <span class="important-words-stash">git stash push</span>.
+         </p>
+    </div>
+
+    <div class="task4 info-box-stash">
+        <h3>'git stash -u' command & flag </h3>
+        <p><span class="important-words-stash">-u
+            --include-untracked
+            --no-include-untracked</span>
+            When used with the push and save commands, all untracked files are also stashed and then cleaned up with git clean.
+            
+            When used with the show command, show the untracked files in the stash entry as part of the diff.</p>
+
+        <p>Sometimes you want to stash a specific subset of changes, for this we can use the <span class="important-words-stash"> -- patch (-p) flag.</span> This allows us to interactively
+            specify which changes will be included in this stash.
+        </p>
+    </div>
+
+    <div class="task5 info-box-stash">
+        <h3>Git Stash Pop</h3>
+        <p><span class="important-words-stash">Git stash pop</span> applies
+            a removed single stashed state from the stash list, 
+            on top of the current working state tree.<br>
+            The working directory have to match the index.
+        </p>
+    </div>
+
+    <footer>
+        <h3>Good luck, have a nice day!</h3>
+    </footer>
+</body>
+</html>

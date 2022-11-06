@@ -1,10 +1,10 @@
-Hello TEAM-3!!!
+Hello TEAM-4!!!
 
 This task is to develop your git skills and project organisation. You will run into conflicts when merging your branches and you will need to work together to solve them.
 
 --------------------------------------
 
-Your job is to complete the add.html page. This page will explain how to add changes to a git repository.
+Your job is to complete the review.html page. This page will explain how to review changes to a git project before pushing.
 
 The page itself has been created in the /html directory, but it is empty! You'll have to create any additional directories and files you need - css, images, etc.
 
@@ -12,13 +12,13 @@ The page layout, design, colours and style are entirely up to you. The tasks tel
 
 --------------------------------------
 
-You MUST only work inside the team-3 branch. 
+You MUST only work inside the team-4 branch. 
 
 Each team member MUST complete at least one of the following tasks.
 
-Each task MUST be completed in a separate branch that is created from the team-3 branch.
+Each task MUST be completed in a separate branch that is created from the team-4 branch.
 
-Name your branches team-3-task-1 or something similar.
+Name your branches team-4-task-1 or something similar.
 
 Complete your work, then merge your task branch into the team branch. 
 
@@ -50,32 +50,19 @@ The navigation bar must have the following items:
 
 Task 2)
 
-Add a area on the page detailing the 'git add' command. Explain how to use it to add individual files, or all files.
+Add a area on the page detailing the 'git status' command. Explain how to use it and what it shows
 
 Task 3)
 
-Add an area to the page detailing the 'git commit' command. Explain the need for semantic messages.
+Add an area to the page detailing the 'git diff' command. Explain how to show individual files or alll files
 
 Task 4)
 
-<<<<<<< HEAD:html/README-TEAM-3.md
-Add an area on the page detailing the 'git push' command.
-=======
-Add an area on the page showing how to use the 'git remote add origin' command. Screenshots are probably a good idea.
->>>>>>> main:html/README-TEAM-1.md
+Add an area on the page detailing the 'git pull' command. Explain why it is so important
 
 Task 5)
 
-Add an area explaining what happens when you push changes in a new branch, and what a user should do.
-
-Task 6)
-
-Add an area explaining the 'git reset --hard HEAD' command an the dangers of using it
-
-
-Task 6)
-
-Add an area explaining how to clone an existing repository from github
+Add an area explaining the 'git log' command
 
 --------------------------------------
 
