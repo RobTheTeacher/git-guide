@@ -6,14 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Task 5</title>
+    <link rel="stylesheet" type="text/css" href="../styles/add.css">
 </head>
 <body>
    
     
 
-    <header>
+    <header id="main-header">
+      <div class="container">
         <h1>Press the nav-items!</h1>
-        <nav>
+       <!-- <div class="git-logo"><img src="../images/git-logo.png"></div> -->
+
+
+      </div>
+  
+        <nav id="navbar">
             <a href="./create.html">Create</a>
             <a href="./branch.html">Branching</a>
             <a href="./add.html">Add changes</a>
@@ -23,33 +30,38 @@
         </nav>
     </header>
     
-    <div>
+    <div class="box-1">
       <p>Pushing change to the remote makes your commits accessible to others who you may be collaborating with. This will also update any open pull requests with the branch that you're working on. As best practice, it's important to run the git pull command before you push any new changes to a remote branch.</p>
   </div>
-<h2>Git add command</h2>
 
-<p>The git add command adds a change in the working directory to the staging area. It tells Git that you want to include updates to a particular file in the next commit. However, git add doesn't really affect the repository in any significant way—changes are not actually recorded until you run git commit .</p>
 
+<div class="container">
+  <h2>Git add command</h2>
+  <p>The git add command adds a change in the working directory to the staging area. It tells Git that you want to include updates to a particular file in the next commit. However, git add doesn't really affect the repository in any significant way—changes are not actually recorded until you run git commit .</p>
 
     <div>
       <p> 
-        The git push command is used t oupload local reposetry nontent to renote reposetry. 
+        The <em>git push</em> command is used to oupload local reposetry nontent to renote reposetry. 
         Its the counter part off git fetch, wich is a command that imports commits to local braches. 
         git push exports commits to remote branches. 
       </p>
     </div>
 
+
+
     <div>
       <p>
-        The 'git reset --hard Head' is a command that moves the current Head to the commit.
-        The -hard potion is used for reseting the files of the index and of the working directory. 
+        The <em>'git reset --hard Head'</em> is a command that moves the current Head to the commit.
+        The <em>-hard</em> potion is used for reseting the files of the index and of the working directory. 
       </p>
     </div>
 
     <div>
-        <p>The git commit command captures the state of a project at that point in time. 
-            Semanctic naming is important because anyone should be able to understand what has been commited.</p>
+        <p>The <em>git commit</em> command captures the state of a project at that point in time. 
+            <u>Semanctic naming is important because anyone should be able to understand what has been commited.</u></p>
     </div>
+  </div>
+
   </body>
 </html>
 
